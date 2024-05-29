@@ -16,7 +16,7 @@ process.env.NODE_OPTIONS = '--max_old_space_size=2560'
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
 	VERSION: 'v4.4.1', 
-    SESSION_ID: process.env.SESSION_ID || '05_28_H_E_R_M_I_T_IJ_2VW6',
+    SESSION_ID: process.env.SESSION_ID || '05_29_H_E_R_M_I_T_HIQOSLP',
     MODE: (process.env.MODE || 'public').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SEND_READ: (process.env.READ_COMMAND || false),
@@ -37,7 +37,7 @@ module.exports = {
     WARN: process.env.WARN || '4',
     EXPRESS: toBool(process.env.EXPRESS),
     REJECT_CALL: toBool(process.env.REJECT_CALL),
-    KOYEB_API_KEY: process.env.KOYEB_API_KEY || '',
+    KOYEB_API_KEY: process.env.KOYEB_API_KEY || 'HRKU-9ccafbb1-2e8d-4bc7-831a-3bde0629a2ec',
     KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || '',
     TERMUX_VPS: toBool(process.env.TERMUX || process.env.VPS),
     AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW),
